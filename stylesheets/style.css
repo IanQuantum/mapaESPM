@@ -1,0 +1,200 @@
+
+@charset "utf-8";
+* { margin: 0; padding: 0;font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif; }
+/* CSS Document */
+.site{  /* classe que engloba todo o site e faz deixar ele no meio com o margin: 0 auto. */
+	width:55%;
+	height:auto;
+	margin:0 auto;
+}
+.banner{/* defino que o banner tem 100% de tamanho dentro dos 75% do .site */
+	width:100%; 
+	height:140px;	
+}
+.img{/*  DEIXANDO O LOGO BONITO */
+	width:177px;
+  	height:97px;
+  	border-color: #d9d9d9;
+  	border-radius: 3px;
+  	border-style: solid;
+  	border-width: 1px;
+	text-align:center;
+	float:left;
+}
+
+}
+
+.img:hover{/* Quanto o mouse passar encima do bagulho, ele muda de cor. */
+	border-color: #B8C3FF;
+}
+.img img{ /* aqui ainda é o logo. ele tem dois pixeis a menos do que a div acima para centralizar e não zoar a borda. */
+	width:175px;
+	height:95px;
+	padding-top:1px;
+	
+}
+/*mexendo na pesquisa (texto e botão) */
+.pesquisa{
+	width:51%;
+	float:right;
+	height:50px;
+}
+#pesq{
+	float:left;
+	width:75%;
+	height:100%;
+}
+#bt{
+	float:left;
+	width:25%;
+	height:100%;
+}
+/*termina aqui o texto e botão */
+/* DEIXANDO O BOTÃO BONITO COM UM MONTE DE CÓDIGOS ALEATÓRIOS */
+input[type="text"]{
+    border-radius: 0;
+    background-color: #FFFFFF;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #cccccc;
+    box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1);
+    color: rgba(0, 0, 0, 0.75);
+    display: block;
+    font-family: inherit;
+    font-size: 0.875rem;
+    width:100%;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-transition: border-color 0.15s linear, background 0.15s linear;
+    -moz-transition: border-color 0.15s linear, background 0.15s linear;
+    -ms-transition: border-color 0.15s linear, background 0.15s linear;
+    -o-transition: border-color 0.15s linear, background 0.15s linear;
+    transition: border-color 0.15s linear, background 0.15s linear;
+	height: 100%;
+	font-size:18pt;
+}
+input[type="submit"]{
+	-webkit-appearance: none;
+    -moz-appearance: none;
+    border-radius: 0;
+    border-style: solid;
+    border-width: 0;
+    cursor: pointer;
+    font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+    font-weight: normal;
+    line-height: normal;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1rem;
+    background-color: #a80534;
+    border-color: #810000;
+    color: #FFFFFF;
+    transition: background-color 300ms ease-out;
+	height:100%;
+	width:100%;
+}
+/*FIM DO FORM BONITO */
+
+/*começo de uma nova era, o "ilustrativo */
+.ilustrativo{
+	float:right;
+	width:80%;
+	height:80px;
+	font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+	text-align:center;
+	line-height:80px;
+	margin-top:10px;
+	background-color:#f2f2f2;
+}
+.img ilu{
+	max-width:200px;
+    max-height:150px;
+    width: auto;
+    height: auto;	
+	
+	}
+.menu{ /*DA UM ESPAÇO ENTRE O ILUSTRATIVO E O MENU */
+	margin-top:10px;	
+}
+
+.mapa{ /*começando a brincar com o mapa */
+	background-color:#f2f2f2;
+	border: solid #d8d8d8 1px;
+	float:left;
+	width:60%;
+	height:500px;
+	text-align:center;
+	margin-bottom:10px;
+}
+.mapa img{  /* ele entra na classe "mapa" e acha a tag "img" e configura ela */
+	width:90%;
+	height:90%;	
+	margin-top:20px;
+}
+.redesEvento{
+	background-color:#f2f2f2;
+	border: solid #d8d8d8 1px;
+	float:right;
+	width:30%;
+	height:500px;
+}
+.redes{
+	text-align:center;
+}
+/*css da tabela de eventos */
+.eventos{
+	margin-top:10px;	
+}
+table{
+	width:90%;	
+	height:auto;
+	border: solid #d8d8d8 1px;
+	margin:0 auto;
+	background-color:white;
+}
+td{
+	height:25px;
+}
+.mapinha{
+	width:90%;
+	margin:0 auto;
+	margin-top:20px;
+}
+ .informacoes{
+	width: 100%;
+	height:250px;
+	background:#f2f2f2;
+	border: solid #d8d8d8 1px; 
+	clear:both;
+}
+h1{/*mexendo com os titulos e as informacoes*/
+	text-align:center;
+	background:#e9e6e9;
+	font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+}
+#informs{
+	width:91%;
+	height:249px;	
+	margin:0 auto;
+	
+	}
+.inform{
+	float:left;
+	margin:3px;
+	width:32%;
+	border: solid #d8d8d8 1px; 
+	height:auto;
+}
+h5{
+	text-align:center;
+	font-size:16pt;
+
+}
+.inform p{
+	font-size: 15pt;
+	text-align:left;
+	margin:3px;
+}
+
